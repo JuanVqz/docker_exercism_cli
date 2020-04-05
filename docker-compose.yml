@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+
+  cli:
+    build: .
+    volumes:
+      - ~/.config:/root/.config
+      - ~/exercism:/root/exercism
